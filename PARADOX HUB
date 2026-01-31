@@ -1,7 +1,7 @@
 repeat task.wait() until game:IsLoaded()
 
-if getgenv().PARADOX_LOADER_EXECUTED then return end
-getgenv().PARADOX_LOADER_EXECUTED = true
+if getgenv().SL_LOADER_EXECUTED then return end
+getgenv().SL_LOADER_EXECUTED = true
 
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
@@ -26,7 +26,7 @@ local EXECUTE_SCRIPT = "loadstring(game:HttpGet('https://raw.githubusercontent.c
 local GET_KEY_LINK = "https://discord.gg/2z2bNEdhK4"
 
 local Gui = Instance.new("ScreenGui", game.CoreGui)
-Gui.Name = "PARADOX_KEY_SYSTEM"
+Gui.Name = "SL_KEY_SYSTEM"
 Gui.ResetOnSpawn = false
 
 local Main = Instance.new("Frame", Gui)
