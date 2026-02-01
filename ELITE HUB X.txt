@@ -11,7 +11,7 @@ local MiscTab = SpeedHub:AddTab('Misc')
 local SettingsTab = SpeedHub:AddTab('Settings')
 
 HomeTab:Show()
-HomeTab:AddLabel('MADE BY [BSW]GHOST ')
+HomeTab:AddLabel('MADE BY SL_GHOST ')
 HomeTab:AddLabel('If you have any suggestions please let us know')
 HomeTab:AddLabel('Enjoy the script!')
 
